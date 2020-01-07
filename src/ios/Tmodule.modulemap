@@ -1,0 +1,11 @@
+#import "ScreenShieldKit.h"
+#import "SSKProtectedImageView.h"
+#import "SSKProtectedLabel.h"
+#import "SSKProtectedViewStatus.h"
+
+framework module ScreenShieldKit {
+  umbrella header "ScreenShieldKit.h"
+
+  export *
+  module * { export * }
+}
